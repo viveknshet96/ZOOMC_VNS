@@ -716,14 +716,14 @@ export default function VideoMeetComponent() {
                         <div className={styles.controlsWrapper}>
                             {/* Secondary Controls */}
                             <div className={styles.secondaryControls}>
-                                <IconButton 
+{/*                                 <IconButton 
                                     onClick={handleCameraFlip} 
                                     className={styles.controlButton}
                                     disabled={!video}
                                 >
                                     <FlipCameraAndroidIcon />
                                 </IconButton>
-                                
+                                 */}
                                 <IconButton 
                                     onClick={handleSpeaker} 
                                     className={styles.controlButton}
@@ -782,11 +782,11 @@ export default function VideoMeetComponent() {
                             </div>
 
                             {/* More Options */}
-                            <div className={styles.moreOptions}>
+{/*                             <div className={styles.moreOptions}>
                                 <IconButton className={styles.controlButton}>
                                     <MoreVertIcon />
                                 </IconButton>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
